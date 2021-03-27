@@ -5,6 +5,7 @@ import matplotlib.gridspec as gridspec
 
 big_rad=5000
 small_rad=3000
+color_='black'
 
 fig = plt.figure(constrained_layout=True, figsize=(10, 8))
 spec = gridspec.GridSpec(ncols=4, nrows=3, figure=fig)
